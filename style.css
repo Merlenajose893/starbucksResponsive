@@ -1,0 +1,49 @@
+/* Media Queries for responsiveness */
+
+/* For small devices (up to 768px) */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .navbar-brand img {
+        max-width: 90px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 10px 0;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+/* For very small devices (up to 576px) */
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand img {
+        max-width: 70px;
+    }
+
+    .nav-link.btn {
+        padding: 5px 10px;
+    }
+}
